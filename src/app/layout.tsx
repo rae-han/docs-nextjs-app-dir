@@ -1,4 +1,4 @@
-// import './globals.css'
+import './globals.css'
 import type { Metadata } from 'next'
 import {PropsWithChildren} from "react";
 
@@ -12,7 +12,10 @@ export default function RootLayout({
 }: PropsWithChildren) {
   return (
     <html lang="en">
-      <body >{children}</body>
+      <body>
+        <h2>root layout</h2>
+        <div>{children}</div>
+      </body>
     </html>
   )
 }
