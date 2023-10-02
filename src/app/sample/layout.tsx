@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 }
 
 export default function TestLayout({ children }: PropsWithChildren) {
-  Array.from({ length: 12_234 }).forEach(value => console.log(value))
+  // Array.from({ length: 12_234 }).forEach(value => console.log(value))
 
   return (
     <div>

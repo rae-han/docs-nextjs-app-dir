@@ -8,6 +8,7 @@ interface Props {
 }
 
 const Page = () => {
+
   return (
     <div>
       <h1>Test Page</h1>
