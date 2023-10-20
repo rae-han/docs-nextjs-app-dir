@@ -6,9 +6,10 @@ import {useSelectedLayoutSegment} from "next/navigation";
 interface Props extends PropsWithChildren {
   one: React.ReactNode,
   two: React.ReactNode,
+  header: React.ReactNode,
 }
 
-const Layout = ({ children, one, two  }: Props) => {
+const Layout = ({ children, one, two, header  }: Props) => {
   const oneSegment = useSelectedLayoutSegment('one')
   const twoSegment = useSelectedLayoutSegment('two')
   console.log({ oneSegment, twoSegment })
