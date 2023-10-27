@@ -5,7 +5,7 @@ const ContentPage = () => {
   return (
     <Modal>
       <div>
-        no modal content page
+        intercepting
       </div>
     </Modal>
   );
